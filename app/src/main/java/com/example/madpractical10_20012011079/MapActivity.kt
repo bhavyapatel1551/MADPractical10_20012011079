@@ -2,6 +2,7 @@ package com.example.madpractical10_20012011079
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -9,7 +10,8 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import com.example.madpractical10_20012011079.databinding.ActivityMapsBinding
+import com.example.madpractical10_20012011079.databinding.ActivityMapBinding
+
 class MapActivity : AppCompatActivity(), OnMapReadyCallback {
     private val TAG = "MapActivity"
     private lateinit var mMap: GoogleMap
